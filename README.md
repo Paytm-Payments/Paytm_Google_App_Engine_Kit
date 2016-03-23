@@ -7,7 +7,7 @@
  boolean  checkSumServiceHelper.verifycheckSumGAE (String merchantkey, TreeMap   responseTreeMap, String responseChecksum);
  ```
  
-3. For Generating CheckSum, use following snippet code:
+3. For Generating CheckSum, use the following snippet code:
  ```sh
  com.paytm.merchant.CheckSumServiceHelper checkSumServiceHelper = com.paytm.merchant.CheckSumServiceHelper.getCheckSumServiceHelper();
  
@@ -23,7 +23,7 @@
  //Note: Above mentioned parameters are not complete list of parameters. Please refer integration document for additional parameters which need to be passed.
  String checkSum = checkSumServiceHelper.genrateCheckSumGAE(merchantKey, parameters);
  ```
-4. For Verifying CheckSum, use following snippet code
+4. For Verifying CheckSum, use the following snippet code
  ```sh
  com.paytm.merchant.CheckSumServiceHelper checkSumServiceHelper = com.paytm.merchant.CheckSumServiceHelper.getCheckSumServiceHelper();
  
