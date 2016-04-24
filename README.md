@@ -44,4 +44,4 @@
  //Note: Above mentioned parameters are not complete list of parameters. Please refer integration document for additional parameters which need to be passed.
  isValidChecksum = checkSumServiceHelper.verifycheckSumGAE (merchantkey, parameters, paytmChecksum);
  ```
-5. Integration Doc is at [https://paytm-wallet.readme.io/v1.0/docs]
+5. Integration Doc is at [http://paywithpaytm.com/developer/paytm_api_doc/]
